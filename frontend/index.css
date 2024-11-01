@@ -1,0 +1,28 @@
+.calculator {
+    max-width: 300px;
+    margin: auto;
+}
+
+.keypad {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+
+.keypad button {
+    padding: 15px;
+    font-size: 18px;
+}
+
+#display {
+    font-size: 24px;
+    text-align: right;
+}
+
+.spinner-border {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+}
